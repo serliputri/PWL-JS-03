@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PageController extends Controller
+class HomeController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -25,6 +25,7 @@ class PageController extends Controller
     {
         return 'Halaman Artikel dengan ID ' .$id;
     }
+
     /**
      * Show the form for creating a new resource.
      *
