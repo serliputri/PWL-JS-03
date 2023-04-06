@@ -59,4 +59,12 @@
               </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="{{ route('ipkSemester') }}" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Nilai Semester
+              </p>
+            </a>
+          </li>
   </aside>

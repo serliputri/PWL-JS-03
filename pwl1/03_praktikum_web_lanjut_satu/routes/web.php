@@ -8,6 +8,7 @@ use App\Http\Controllers\ProgramController;
 use App\Http\Controllers\ContactUsController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CurhatController;
+use App\Http\Controllers\IPKSemesterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -48,3 +49,4 @@ Route::resource('/contact-us', ContactUsController::class)->only(['index']);
 Route::get('/dashboard', [HomeController::class, 'index'])->name('home');
 Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
 Route::get('/curhat', [CurhatController::class, 'index'])->name('curhat');
+Route::get('/nilai', [IPKSemesterController::class,'index'])->name('ipkSemester');
